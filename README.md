@@ -3,7 +3,7 @@ https://github.com/vitest-dev/vitest/pull/6541
 ```sh
 pnpm i
 node generate-files.mjs
-pnpm test bench
+pnpm bench
 ...
  ✓ src/173.bench.js (2) 1736ms
      name               hz     min     max    mean     p75     p99    p995    p999     rme  samples

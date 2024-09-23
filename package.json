@@ -3,7 +3,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "test": "vitest"
+    "bench": "vitest bench",
+    "vitest-ecosystem-ci:test": "node generate-files.mjs && pnpm bench"
   },
   "devDependencies": {
     "@types/node": "^22.5.5",
